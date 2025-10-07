@@ -1,1 +1,51 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Silver (Text): #C0B7B1      (text, contrast with dark)
+* Raw umber (Primary): #8E6E53      
+* Jet (Secondary): #433E3F    (canvas background)
+* Lion (Accent):  #C69C72
+*/
+
+.bg-info {
+    background-color: #433E3F !important; /* Jet for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #8E6E53;            /* Raw Umber for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #C0B7B1;            /* Silver shade for text on info button for contrast */
+    background-color: #433E3F; /* Jet for button background */
+    border-color: #8E6E53;     /* Raw Umber for button border */
+}
+
+.btn-primary {
+    color: #C0B7B1;            /* Silver shade for text */
+    font-size: 150%;
+    background-color: #8E6E53; /* Raw Umber for primary button background */
+    border-color: #433E3F;     /* Reddish-brown for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #C0B7B1; /* Silver shade for body background to follow the 60% rule */
+}
+
+.navbar-brand{
+    font-family: 'Roboto', cursive; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
+.btn-primary{
+    width: 125px;
+}
+
+#hikename {
+    width: 125px;
+}
